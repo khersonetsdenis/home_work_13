@@ -13,7 +13,8 @@
 class Multiply
 {
 
-    public static function accumulate(array $numbers) {
+    public static function accumulate (array $numbers)
+	{
      $new_numbers = array_map(function ($item) {
           return $item * $item;
       }, $numbers);

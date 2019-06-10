@@ -20,7 +20,8 @@ class CosmoAge
 {
     public $age;
 
-    public function count_age($i){
+    public function count_age($i)
+	{
         switch ($i) {
             case 'Земля':
                 echo 31.69 . ' лет';

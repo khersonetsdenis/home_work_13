@@ -9,8 +9,8 @@ class ExpandArray
 {
     public $numbers = [];
 
-    public function expand_arr($arr){
-
+    public function expand_arr($arr)
+	{
 
         foreach ($arr as $arr_value) {
             if(is_array($arr_value)){

@@ -14,7 +14,8 @@ class Count
 {
     public $array = [];
 
-    public function count_world ($array_string) {
+    public function count_world ($array_string)
+	{
         $new_array = explode(' ', $array_string);
         foreach ($new_array as $value)
         {
@@ -23,7 +24,8 @@ class Count
         return $this->array;
     }
 
-    public function count_world_lite($array_string){
+    public function count_world_lite ($array_string)
+	{
         $new_array = explode(' ', $array_string);
         return array_count_values ($new_array);
     }
